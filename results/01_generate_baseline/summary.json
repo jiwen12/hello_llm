@@ -1,0 +1,12 @@
+{
+  "experiment_name": "commonsenseqa_baseline",
+  "model": "distilbert/distilgpt2",
+  "dataset": "tau/commonsense_qa",
+  "split": "validation",
+  "num_samples": 20,
+  "correct": 2,
+  "accuracy": 0.1,
+  "max_new_tokens": 5,
+  "do_sample": false,
+  "seed": 42
+}

@@ -1,0 +1,8 @@
+# 环境：conda env llm-research (Python 3.10.22)
+# 安装：python -m pip install -r requirements.txt
+
+torch==2.14.1
+transformers==5.19.0
+datasets==5.1.0
+PyYAML==6.0.3
+gradio==6.30.0

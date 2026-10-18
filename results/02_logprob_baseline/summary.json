@@ -1,0 +1,20 @@
+{
+  "experiment_name": "commonsenseqa_baseline_logprob",
+  "model": "distilbert/distilgpt2",
+  "dataset": "tau/commonsense_qa",
+  "split": "validation",
+  "num_samples": 20,
+  "correct": 9,
+  "accuracy": 0.45,
+  "scoring_method": "length_normalized_log_likelihood",
+  "seed": 42,
+  "prediction_distribution": {
+    "C": 4,
+    "B": 5,
+    "E": 5,
+    "A": 3,
+    "D": 3
+  },
+  "mean_confidence": 0.6255,
+  "mean_margin": 1.2743
+}

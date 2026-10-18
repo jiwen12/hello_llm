@@ -1,0 +1,16 @@
+
+experiment:
+  name: commonsenseqa_baseline
+
+model:
+  name: distilbert/distilgpt2
+
+dataset:
+  name: tau/commonsense_qa
+  split: validation
+  num_samples: 20
+
+generation:
+  max_new_tokens: 5
+  do_sample: false
+  seed: 42

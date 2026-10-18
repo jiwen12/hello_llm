@@ -1,30 +1,4 @@
-# Hello LLM Research
-
-## Project Introduction
-
-This is my first project for learning large language model (LLM) research.
-
-## Project Structure
-
-- `main.py`: A simple Python script.
-
-## How to Run
-
-Run the following command in the terminal:
-
-```bash
-python main.py
-```
-
-## Expected Output
-
-```text
-Hello LLM Research
-I am learning Git for LLM research.
-```
-
-## Learning Goals
-
-- Learn Python and Git.
-- Learn GitHub and research project management.
-- Prepare for future LLM and commonsense reasoning research.
+跟随视频练习手撕transformer架构
+成功配置Anaconda虚拟环境 llm-research
+学习基本git操作，保存文件至缓冲区，提交改动版本说明，push到GitHub仓库
+学习在hugging face上寻找大模型，并在vscode上利用transformers库加载大模型

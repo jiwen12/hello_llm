@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件 / 日志
+*.log
+_tmp/
+*.tmp
+
+# 模型与数据集（体积大，不入库）
+models/
+datasets/
+*.bin
+*.safetensors
+*.pth
+*.ckpt

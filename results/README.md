@@ -41,7 +41,4 @@ with open("results/02_logprob_baseline/predictions.jsonl") as f:
 - 名字格式：`<序号>_<方法简称>`
 - 例：`03_logprob_100samples`、`04_logprob_gpt2`
 
-## 注意
 
-`01_generate_baseline` 是**方法失效的对照组**（准确率 0.10，13/20 无法解析），
-**不要删**——它是报告里「方法对比」一节的核心证据。
